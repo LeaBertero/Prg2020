@@ -42,7 +42,7 @@ namespace HolaMundo
             this.btAceptar.BackColor = System.Drawing.Color.Black;
             this.btAceptar.Font = new System.Drawing.Font("Modern No. 20", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btAceptar.ForeColor = System.Drawing.Color.Red;
-            this.btAceptar.Location = new System.Drawing.Point(331, 202);
+            this.btAceptar.Location = new System.Drawing.Point(312, 213);
             this.btAceptar.Name = "btAceptar";
             this.btAceptar.Size = new System.Drawing.Size(146, 58);
             this.btAceptar.TabIndex = 0;
@@ -65,13 +65,14 @@ namespace HolaMundo
             // lblMensaje
             // 
             this.lblMensaje.AutoSize = true;
-            this.lblMensaje.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMensaje.Font = new System.Drawing.Font("Cooper Black", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMensaje.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblMensaje.Location = new System.Drawing.Point(257, 79);
+            this.lblMensaje.ImageKey = "(ninguno)";
+            this.lblMensaje.Location = new System.Drawing.Point(218, 68);
             this.lblMensaje.Name = "lblMensaje";
-            this.lblMensaje.Size = new System.Drawing.Size(47, 19);
+            this.lblMensaje.Size = new System.Drawing.Size(79, 25);
             this.lblMensaje.TabIndex = 2;
-            this.lblMensaje.Text = "Hola";
+            this.lblMensaje.Text = "HOLA";
             // 
             // TxbMensaje
             // 
@@ -85,9 +86,9 @@ namespace HolaMundo
             // btnSalir
             // 
             this.btnSalir.Font = new System.Drawing.Font("Century", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalir.Location = new System.Drawing.Point(568, 216);
+            this.btnSalir.Location = new System.Drawing.Point(476, 213);
             this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(136, 70);
+            this.btnSalir.Size = new System.Drawing.Size(146, 58);
             this.btnSalir.TabIndex = 4;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
@@ -98,7 +99,7 @@ namespace HolaMundo
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DeepPink;
-            this.ClientSize = new System.Drawing.Size(933, 415);
+            this.ClientSize = new System.Drawing.Size(872, 444);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.TxbMensaje);
             this.Controls.Add(this.lblMensaje);
