@@ -54,13 +54,13 @@ namespace HolaMundo
             // 
             this.textMateria.AutoSize = true;
             this.textMateria.BackColor = System.Drawing.Color.DeepPink;
-            this.textMateria.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textMateria.Font = new System.Drawing.Font("Cooper Black", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textMateria.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textMateria.Location = new System.Drawing.Point(257, 154);
+            this.textMateria.Location = new System.Drawing.Point(219, 153);
             this.textMateria.Name = "textMateria";
-            this.textMateria.Size = new System.Drawing.Size(71, 19);
+            this.textMateria.Size = new System.Drawing.Size(118, 24);
             this.textMateria.TabIndex = 1;
-            this.textMateria.Text = "Materia";
+            this.textMateria.Text = "MATERIA";
             // 
             // lblMensaje
             // 
@@ -82,6 +82,7 @@ namespace HolaMundo
             this.TxbMensaje.Name = "TxbMensaje";
             this.TxbMensaje.Size = new System.Drawing.Size(230, 22);
             this.TxbMensaje.TabIndex = 3;
+            this.TxbMensaje.TextChanged += new System.EventHandler(this.TxbMensaje_TextChanged);
             // 
             // btnSalir
             // 

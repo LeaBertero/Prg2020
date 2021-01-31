@@ -36,5 +36,10 @@ namespace HolaMundo
         {
             Close();
         }
+
+        private void TxbMensaje_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
