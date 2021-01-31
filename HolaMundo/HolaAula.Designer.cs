@@ -34,6 +34,7 @@ namespace HolaMundo
             this.textMateria = new System.Windows.Forms.Label();
             this.lblMensaje = new System.Windows.Forms.Label();
             this.TxbMensaje = new System.Windows.Forms.TextBox();
+            this.btnSalir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btAceptar
@@ -81,12 +82,24 @@ namespace HolaMundo
             this.TxbMensaje.Size = new System.Drawing.Size(230, 22);
             this.TxbMensaje.TabIndex = 3;
             // 
+            // btnSalir
+            // 
+            this.btnSalir.Font = new System.Drawing.Font("Century", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalir.Location = new System.Drawing.Point(568, 216);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(136, 70);
+            this.btnSalir.TabIndex = 4;
+            this.btnSalir.Text = "Salir";
+            this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+            // 
             // HolaAula
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DeepPink;
             this.ClientSize = new System.Drawing.Size(933, 415);
+            this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.TxbMensaje);
             this.Controls.Add(this.lblMensaje);
             this.Controls.Add(this.textMateria);
@@ -106,5 +119,6 @@ namespace HolaMundo
         private System.Windows.Forms.Label textMateria;
         private System.Windows.Forms.Label lblMensaje;
         private System.Windows.Forms.TextBox TxbMensaje;
+        private System.Windows.Forms.Button btnSalir;
     }
 }
