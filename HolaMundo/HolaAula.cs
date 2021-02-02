@@ -41,5 +41,10 @@ namespace HolaMundo
         {
 
         }
+
+        private void lblMensaje_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

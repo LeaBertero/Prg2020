@@ -70,9 +70,10 @@ namespace HolaMundo
             this.lblMensaje.ImageKey = "(ninguno)";
             this.lblMensaje.Location = new System.Drawing.Point(218, 68);
             this.lblMensaje.Name = "lblMensaje";
-            this.lblMensaje.Size = new System.Drawing.Size(79, 25);
+            this.lblMensaje.Size = new System.Drawing.Size(63, 25);
             this.lblMensaje.TabIndex = 2;
-            this.lblMensaje.Text = "HOLA";
+            this.lblMensaje.Text = "Hola";
+            this.lblMensaje.Click += new System.EventHandler(this.lblMensaje_Click);
             // 
             // TxbMensaje
             // 
