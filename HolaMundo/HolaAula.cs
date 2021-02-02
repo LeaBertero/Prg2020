@@ -19,7 +19,7 @@ namespace HolaMundo
 
         private void btAceptar_Click(object sender, EventArgs e)
         {
-            lblMensaje.Text = "Hola gente de la materia  " + TxbMensaje.Text;
+            lblIngreso.Text = "Hola gente de la materia  " + TxbMensaje.Text;
         }
 
         private void button1_Click(object sender, EventArgs e)

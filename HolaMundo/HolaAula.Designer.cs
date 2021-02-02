@@ -32,7 +32,7 @@ namespace HolaMundo
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HolaAula));
             this.btAceptar = new System.Windows.Forms.Button();
             this.textMateria = new System.Windows.Forms.Label();
-            this.lblMensaje = new System.Windows.Forms.Label();
+            this.lblIngreso = new System.Windows.Forms.Label();
             this.TxbMensaje = new System.Windows.Forms.TextBox();
             this.btnSalir = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -62,18 +62,18 @@ namespace HolaMundo
             this.textMateria.TabIndex = 1;
             this.textMateria.Text = "INGRESE MATERIA :";
             // 
-            // lblMensaje
+            // lblIngreso
             // 
-            this.lblMensaje.AutoSize = true;
-            this.lblMensaje.Font = new System.Drawing.Font("Cooper Black", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMensaje.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblMensaje.ImageKey = "(ninguno)";
-            this.lblMensaje.Location = new System.Drawing.Point(179, 78);
-            this.lblMensaje.Name = "lblMensaje";
-            this.lblMensaje.Size = new System.Drawing.Size(63, 25);
-            this.lblMensaje.TabIndex = 2;
-            this.lblMensaje.Text = "Hola";
-            this.lblMensaje.Click += new System.EventHandler(this.lblMensaje_Click);
+            this.lblIngreso.AutoSize = true;
+            this.lblIngreso.Font = new System.Drawing.Font("Cooper Black", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIngreso.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lblIngreso.ImageKey = "(ninguno)";
+            this.lblIngreso.Location = new System.Drawing.Point(179, 78);
+            this.lblIngreso.Name = "lblIngreso";
+            this.lblIngreso.Size = new System.Drawing.Size(63, 25);
+            this.lblIngreso.TabIndex = 2;
+            this.lblIngreso.Text = "Hola";
+            this.lblIngreso.Click += new System.EventHandler(this.lblMensaje_Click);
             // 
             // TxbMensaje
             // 
@@ -106,7 +106,7 @@ namespace HolaMundo
             this.ClientSize = new System.Drawing.Size(872, 444);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.TxbMensaje);
-            this.Controls.Add(this.lblMensaje);
+            this.Controls.Add(this.lblIngreso);
             this.Controls.Add(this.textMateria);
             this.Controls.Add(this.btAceptar);
             this.Font = new System.Drawing.Font("Algerian", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -122,7 +122,7 @@ namespace HolaMundo
 
         private System.Windows.Forms.Button btAceptar;
         private System.Windows.Forms.Label textMateria;
-        private System.Windows.Forms.Label lblMensaje;
+        private System.Windows.Forms.Label lblIngreso;
         private System.Windows.Forms.TextBox TxbMensaje;
         private System.Windows.Forms.Button btnSalir;
     }
