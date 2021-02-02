@@ -42,7 +42,7 @@ namespace HolaMundo
             this.btAceptar.BackColor = System.Drawing.Color.Black;
             this.btAceptar.Font = new System.Drawing.Font("Modern No. 20", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btAceptar.ForeColor = System.Drawing.Color.Red;
-            this.btAceptar.Location = new System.Drawing.Point(312, 213);
+            this.btAceptar.Location = new System.Drawing.Point(259, 225);
             this.btAceptar.Name = "btAceptar";
             this.btAceptar.Size = new System.Drawing.Size(146, 58);
             this.btAceptar.TabIndex = 0;
@@ -56,11 +56,11 @@ namespace HolaMundo
             this.textMateria.BackColor = System.Drawing.Color.DeepPink;
             this.textMateria.Font = new System.Drawing.Font("Cooper Black", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textMateria.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textMateria.Location = new System.Drawing.Point(219, 153);
+            this.textMateria.Location = new System.Drawing.Point(180, 155);
             this.textMateria.Name = "textMateria";
-            this.textMateria.Size = new System.Drawing.Size(118, 24);
+            this.textMateria.Size = new System.Drawing.Size(237, 24);
             this.textMateria.TabIndex = 1;
-            this.textMateria.Text = "MATERIA";
+            this.textMateria.Text = "INGRESE MATERIA :";
             // 
             // lblMensaje
             // 
@@ -68,7 +68,7 @@ namespace HolaMundo
             this.lblMensaje.Font = new System.Drawing.Font("Cooper Black", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMensaje.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lblMensaje.ImageKey = "(ninguno)";
-            this.lblMensaje.Location = new System.Drawing.Point(218, 68);
+            this.lblMensaje.Location = new System.Drawing.Point(179, 78);
             this.lblMensaje.Name = "lblMensaje";
             this.lblMensaje.Size = new System.Drawing.Size(63, 25);
             this.lblMensaje.TabIndex = 2;
@@ -79,7 +79,7 @@ namespace HolaMundo
             // 
             this.TxbMensaje.BackColor = System.Drawing.Color.Aquamarine;
             this.TxbMensaje.ForeColor = System.Drawing.Color.Black;
-            this.TxbMensaje.Location = new System.Drawing.Point(362, 155);
+            this.TxbMensaje.Location = new System.Drawing.Point(444, 155);
             this.TxbMensaje.Name = "TxbMensaje";
             this.TxbMensaje.Size = new System.Drawing.Size(230, 22);
             this.TxbMensaje.TabIndex = 3;
@@ -90,7 +90,7 @@ namespace HolaMundo
             this.btnSalir.BackColor = System.Drawing.Color.Lime;
             this.btnSalir.Font = new System.Drawing.Font("Century", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSalir.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnSalir.Location = new System.Drawing.Point(476, 213);
+            this.btnSalir.Location = new System.Drawing.Point(471, 225);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(146, 58);
             this.btnSalir.TabIndex = 4;
