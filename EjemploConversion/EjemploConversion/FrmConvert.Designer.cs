@@ -29,45 +29,50 @@ namespace EjemploConversion
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmConvert));
             this.TxtOper1 = new System.Windows.Forms.TextBox();
             this.TxtOper2 = new System.Windows.Forms.TextBox();
             this.BtnSuma = new System.Windows.Forms.Button();
             this.LblSuma = new System.Windows.Forms.Label();
             this.LblRes = new System.Windows.Forms.Label();
+            this.BtnSalir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // TxtOper1
             // 
-            this.TxtOper1.Location = new System.Drawing.Point(84, 108);
+            this.TxtOper1.Location = new System.Drawing.Point(54, 52);
             this.TxtOper1.Name = "TxtOper1";
             this.TxtOper1.Size = new System.Drawing.Size(100, 20);
             this.TxtOper1.TabIndex = 0;
+            this.TxtOper1.TextChanged += new System.EventHandler(this.TxtOper1_TextChanged);
             // 
             // TxtOper2
             // 
-            this.TxtOper2.Location = new System.Drawing.Point(345, 108);
+            this.TxtOper2.Location = new System.Drawing.Point(277, 52);
             this.TxtOper2.Name = "TxtOper2";
             this.TxtOper2.Size = new System.Drawing.Size(100, 20);
             this.TxtOper2.TabIndex = 1;
+            this.TxtOper2.TextChanged += new System.EventHandler(this.TxtOper2_TextChanged);
             // 
             // BtnSuma
             // 
             this.BtnSuma.BackColor = System.Drawing.Color.Pink;
             this.BtnSuma.Font = new System.Drawing.Font("Jokerman", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnSuma.ForeColor = System.Drawing.Color.Black;
-            this.BtnSuma.Location = new System.Drawing.Point(500, 94);
+            this.BtnSuma.Location = new System.Drawing.Point(428, 30);
             this.BtnSuma.Name = "BtnSuma";
             this.BtnSuma.Size = new System.Drawing.Size(107, 63);
             this.BtnSuma.TabIndex = 2;
             this.BtnSuma.Text = "=";
             this.BtnSuma.UseVisualStyleBackColor = false;
+            this.BtnSuma.Click += new System.EventHandler(this.BtnSuma_Click);
             // 
             // LblSuma
             // 
             this.LblSuma.AutoSize = true;
             this.LblSuma.Font = new System.Drawing.Font("Jokerman", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblSuma.ForeColor = System.Drawing.Color.Red;
-            this.LblSuma.Location = new System.Drawing.Point(243, 93);
+            this.LblSuma.Location = new System.Drawing.Point(192, 38);
             this.LblSuma.Name = "LblSuma";
             this.LblSuma.Size = new System.Drawing.Size(43, 55);
             this.LblSuma.TabIndex = 3;
@@ -77,23 +82,37 @@ namespace EjemploConversion
             // 
             this.LblRes.AutoSize = true;
             this.LblRes.Font = new System.Drawing.Font("MV Boli", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblRes.Location = new System.Drawing.Point(671, 102);
+            this.LblRes.Location = new System.Drawing.Point(560, 36);
             this.LblRes.Name = "LblRes";
             this.LblRes.Size = new System.Drawing.Size(0, 46);
             this.LblRes.TabIndex = 4;
+            // 
+            // BtnSalir
+            // 
+            this.BtnSalir.Font = new System.Drawing.Font("Jokerman", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnSalir.Location = new System.Drawing.Point(173, 154);
+            this.BtnSalir.Name = "BtnSalir";
+            this.BtnSalir.Size = new System.Drawing.Size(127, 66);
+            this.BtnSalir.TabIndex = 5;
+            this.BtnSalir.Text = "SALIR";
+            this.BtnSalir.UseVisualStyleBackColor = true;
+            this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
             // 
             // FrmConvert
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1136, 249);
+            this.ClientSize = new System.Drawing.Size(948, 385);
+            this.Controls.Add(this.BtnSalir);
             this.Controls.Add(this.LblRes);
             this.Controls.Add(this.LblSuma);
             this.Controls.Add(this.BtnSuma);
             this.Controls.Add(this.TxtOper2);
             this.Controls.Add(this.TxtOper1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmConvert";
-            this.Text = "Form1";
+            this.Text = "Tercer Programa - OPERADORES";
+            this.Load += new System.EventHandler(this.FrmConvert_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -106,6 +125,7 @@ namespace EjemploConversion
         private System.Windows.Forms.Button BtnSuma;
         private System.Windows.Forms.Label LblSuma;
         private System.Windows.Forms.Label LblRes;
+        private System.Windows.Forms.Button BtnSalir;
     }
 }
 
