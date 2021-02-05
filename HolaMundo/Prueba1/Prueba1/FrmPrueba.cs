@@ -16,18 +16,19 @@ namespace Prueba1
 
         public FrmPrueba()
         {
+            string SegundaVariable = "¿Que Tal?";
             InitializeComponent();
-            label1.Text = " Hola  " + PrimerVariable;
+            Label1.Text = " Hola  " + PrimerVariable + SegundaVariable;
         }
 
         private void label2_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            Close();
         }
     }
 }
