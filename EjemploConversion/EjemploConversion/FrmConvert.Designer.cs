@@ -40,7 +40,7 @@ namespace EjemploConversion
             // 
             // TxtOper1
             // 
-            this.TxtOper1.Location = new System.Drawing.Point(54, 52);
+            this.TxtOper1.Location = new System.Drawing.Point(210, 141);
             this.TxtOper1.Name = "TxtOper1";
             this.TxtOper1.Size = new System.Drawing.Size(100, 20);
             this.TxtOper1.TabIndex = 0;
@@ -48,7 +48,7 @@ namespace EjemploConversion
             // 
             // TxtOper2
             // 
-            this.TxtOper2.Location = new System.Drawing.Point(277, 52);
+            this.TxtOper2.Location = new System.Drawing.Point(433, 141);
             this.TxtOper2.Name = "TxtOper2";
             this.TxtOper2.Size = new System.Drawing.Size(100, 20);
             this.TxtOper2.TabIndex = 1;
@@ -59,7 +59,7 @@ namespace EjemploConversion
             this.BtnSuma.BackColor = System.Drawing.Color.Lime;
             this.BtnSuma.Font = new System.Drawing.Font("Jokerman", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnSuma.ForeColor = System.Drawing.Color.Black;
-            this.BtnSuma.Location = new System.Drawing.Point(428, 30);
+            this.BtnSuma.Location = new System.Drawing.Point(584, 119);
             this.BtnSuma.Name = "BtnSuma";
             this.BtnSuma.Size = new System.Drawing.Size(107, 63);
             this.BtnSuma.TabIndex = 2;
@@ -72,7 +72,7 @@ namespace EjemploConversion
             this.LblSuma.AutoSize = true;
             this.LblSuma.Font = new System.Drawing.Font("Jokerman", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblSuma.ForeColor = System.Drawing.Color.Black;
-            this.LblSuma.Location = new System.Drawing.Point(192, 38);
+            this.LblSuma.Location = new System.Drawing.Point(348, 127);
             this.LblSuma.Name = "LblSuma";
             this.LblSuma.Size = new System.Drawing.Size(43, 55);
             this.LblSuma.TabIndex = 3;
@@ -82,7 +82,7 @@ namespace EjemploConversion
             // 
             this.LblRes.AutoSize = true;
             this.LblRes.Font = new System.Drawing.Font("MV Boli", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblRes.Location = new System.Drawing.Point(560, 36);
+            this.LblRes.Location = new System.Drawing.Point(716, 125);
             this.LblRes.Name = "LblRes";
             this.LblRes.Size = new System.Drawing.Size(0, 46);
             this.LblRes.TabIndex = 4;
@@ -91,7 +91,7 @@ namespace EjemploConversion
             // 
             this.BtnSalir.BackColor = System.Drawing.Color.Lime;
             this.BtnSalir.Font = new System.Drawing.Font("Jokerman", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSalir.Location = new System.Drawing.Point(173, 154);
+            this.BtnSalir.Location = new System.Drawing.Point(787, 297);
             this.BtnSalir.Name = "BtnSalir";
             this.BtnSalir.Size = new System.Drawing.Size(127, 66);
             this.BtnSalir.TabIndex = 5;
