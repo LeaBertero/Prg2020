@@ -56,7 +56,7 @@ namespace EjemploConversion
             // 
             // BtnSuma
             // 
-            this.BtnSuma.BackColor = System.Drawing.Color.Pink;
+            this.BtnSuma.BackColor = System.Drawing.Color.Lime;
             this.BtnSuma.Font = new System.Drawing.Font("Jokerman", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnSuma.ForeColor = System.Drawing.Color.Black;
             this.BtnSuma.Location = new System.Drawing.Point(428, 30);
@@ -71,7 +71,7 @@ namespace EjemploConversion
             // 
             this.LblSuma.AutoSize = true;
             this.LblSuma.Font = new System.Drawing.Font("Jokerman", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblSuma.ForeColor = System.Drawing.Color.Red;
+            this.LblSuma.ForeColor = System.Drawing.Color.Black;
             this.LblSuma.Location = new System.Drawing.Point(192, 38);
             this.LblSuma.Name = "LblSuma";
             this.LblSuma.Size = new System.Drawing.Size(43, 55);
@@ -89,19 +89,21 @@ namespace EjemploConversion
             // 
             // BtnSalir
             // 
+            this.BtnSalir.BackColor = System.Drawing.Color.Lime;
             this.BtnSalir.Font = new System.Drawing.Font("Jokerman", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnSalir.Location = new System.Drawing.Point(173, 154);
             this.BtnSalir.Name = "BtnSalir";
             this.BtnSalir.Size = new System.Drawing.Size(127, 66);
             this.BtnSalir.TabIndex = 5;
             this.BtnSalir.Text = "SALIR";
-            this.BtnSalir.UseVisualStyleBackColor = true;
+            this.BtnSalir.UseVisualStyleBackColor = false;
             this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
             // 
             // FrmConvert
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.MediumAquamarine;
             this.ClientSize = new System.Drawing.Size(948, 385);
             this.Controls.Add(this.BtnSalir);
             this.Controls.Add(this.LblRes);
