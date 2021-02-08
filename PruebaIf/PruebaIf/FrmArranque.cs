@@ -24,7 +24,7 @@ namespace PruebaIf
 
         private void button1_Click(object sender, EventArgs e)
         {
-            var pepe = new FrmSiguiente();
+            var pepe = new FrmArranque();
             pepe.Show();
         }
 

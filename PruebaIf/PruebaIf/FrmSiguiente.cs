@@ -32,5 +32,11 @@ namespace PruebaIf
             var pepe2 = new FrmSiguiente();
             pepe2.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            var pepe = new FrmArranque();
+            pepe.Show();
+        }
     }
 }
