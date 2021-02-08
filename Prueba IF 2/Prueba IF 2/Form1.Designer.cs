@@ -56,9 +56,10 @@ namespace Prueba_IF_2
             // LblRes
             // 
             this.LblRes.AutoSize = true;
+            this.LblRes.Font = new System.Drawing.Font("MV Boli", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblRes.Location = new System.Drawing.Point(626, 264);
             this.LblRes.Name = "LblRes";
-            this.LblRes.Size = new System.Drawing.Size(0, 13);
+            this.LblRes.Size = new System.Drawing.Size(0, 28);
             this.LblRes.TabIndex = 2;
             // 
             // BtAceptar
@@ -86,7 +87,7 @@ namespace Prueba_IF_2
             this.Controls.Add(this.LblTique);
             this.Controls.Add(this.TxtEdad);
             this.Name = "Form1";
-            this.Text = "Prueba IF 2";
+            this.Text = "Prueba IF 2 - EDAD DE LA PERSONA";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
