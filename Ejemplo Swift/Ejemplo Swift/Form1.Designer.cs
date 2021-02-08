@@ -80,6 +80,7 @@ namespace Ejemplo_Swift
             // BtnSalir
             // 
             this.BtnSalir.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.BtnSalir.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnSalir.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnSalir.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.BtnSalir.Location = new System.Drawing.Point(544, 263);
