@@ -38,7 +38,7 @@ namespace Prueba_IF_2
             // TxtEdad
             // 
             this.TxtEdad.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtEdad.Location = new System.Drawing.Point(237, 235);
+            this.TxtEdad.Location = new System.Drawing.Point(239, 204);
             this.TxtEdad.Name = "TxtEdad";
             this.TxtEdad.Size = new System.Drawing.Size(113, 33);
             this.TxtEdad.TabIndex = 0;
@@ -47,7 +47,7 @@ namespace Prueba_IF_2
             // 
             this.LblTique.AutoSize = true;
             this.LblTique.Font = new System.Drawing.Font("Jokerman", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblTique.Location = new System.Drawing.Point(228, 114);
+            this.LblTique.Location = new System.Drawing.Point(230, 83);
             this.LblTique.Name = "LblTique";
             this.LblTique.Size = new System.Drawing.Size(322, 51);
             this.LblTique.TabIndex = 1;
@@ -57,7 +57,7 @@ namespace Prueba_IF_2
             // 
             this.LblRes.AutoSize = true;
             this.LblRes.Font = new System.Drawing.Font("MV Boli", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblRes.Location = new System.Drawing.Point(626, 264);
+            this.LblRes.Location = new System.Drawing.Point(371, 318);
             this.LblRes.Name = "LblRes";
             this.LblRes.Size = new System.Drawing.Size(0, 28);
             this.LblRes.TabIndex = 2;
@@ -68,7 +68,7 @@ namespace Prueba_IF_2
             this.BtAceptar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtAceptar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.BtAceptar.Font = new System.Drawing.Font("MV Boli", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtAceptar.Location = new System.Drawing.Point(396, 223);
+            this.BtAceptar.Location = new System.Drawing.Point(398, 192);
             this.BtAceptar.Name = "BtAceptar";
             this.BtAceptar.Size = new System.Drawing.Size(145, 70);
             this.BtAceptar.TabIndex = 3;
