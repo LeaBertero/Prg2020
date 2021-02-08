@@ -16,5 +16,39 @@ namespace Prueba_IF_2
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtAceptar_Click(object sender, EventArgs e)
+        {
+            
+            
+            {
+                int Edad = System.Convert.ToInt32(TxtEdad.Text);
+
+                if (Edad < 12)
+                {
+                    LblRes.Text = "NIÑO";
+                }
+                else if (Edad >= 12 && Edad < 18)
+                {
+                    LblRes.Text = "ADOLESCENTE";
+                }
+                else if (Edad >= 18 && Edad < 60)
+                {
+                    LblRes.Text = "ADULTO";
+
+                }
+                else
+
+                {
+                    LblRes.Text = "ADULTO MAYOR";
+                }
+                
+            }
+        }
     }
 }

@@ -29,60 +29,65 @@ namespace Prueba_IF_2
         /// </summary>
         private void InitializeComponent()
         {
-            this.TxtIngreso = new System.Windows.Forms.TextBox();
-            this.LblEtique = new System.Windows.Forms.Label();
-            this.Edad = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.TxtEdad = new System.Windows.Forms.TextBox();
+            this.LblTique = new System.Windows.Forms.Label();
+            this.LblRes = new System.Windows.Forms.Label();
+            this.BtAceptar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // TxtIngreso
+            // TxtEdad
             // 
-            this.TxtIngreso.Location = new System.Drawing.Point(124, 80);
-            this.TxtIngreso.Name = "TxtIngreso";
-            this.TxtIngreso.Size = new System.Drawing.Size(100, 20);
-            this.TxtIngreso.TabIndex = 0;
+            this.TxtEdad.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtEdad.Location = new System.Drawing.Point(237, 235);
+            this.TxtEdad.Name = "TxtEdad";
+            this.TxtEdad.Size = new System.Drawing.Size(113, 33);
+            this.TxtEdad.TabIndex = 0;
             // 
-            // LblEtique
+            // LblTique
             // 
-            this.LblEtique.AutoSize = true;
-            this.LblEtique.Location = new System.Drawing.Point(121, 35);
-            this.LblEtique.Name = "LblEtique";
-            this.LblEtique.Size = new System.Drawing.Size(38, 13);
-            this.LblEtique.TabIndex = 1;
-            this.LblEtique.Text = "Edad?";
+            this.LblTique.AutoSize = true;
+            this.LblTique.Font = new System.Drawing.Font("Jokerman", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblTique.Location = new System.Drawing.Point(228, 114);
+            this.LblTique.Name = "LblTique";
+            this.LblTique.Size = new System.Drawing.Size(322, 51);
+            this.LblTique.TabIndex = 1;
+            this.LblTique.Text = "Indique su edad:";
             // 
-            // Edad
+            // LblRes
             // 
-            this.Edad.AutoSize = true;
-            this.Edad.Location = new System.Drawing.Point(121, 157);
-            this.Edad.Name = "Edad";
-            this.Edad.Size = new System.Drawing.Size(0, 13);
-            this.Edad.TabIndex = 2;
+            this.LblRes.AutoSize = true;
+            this.LblRes.Location = new System.Drawing.Point(626, 264);
+            this.LblRes.Name = "LblRes";
+            this.LblRes.Size = new System.Drawing.Size(0, 13);
+            this.LblRes.TabIndex = 2;
             // 
-            // button1
+            // BtAceptar
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button1.Font = new System.Drawing.Font("MV Boli", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(260, 63);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(139, 66);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Click Aquí";
-            this.button1.UseVisualStyleBackColor = false;
+            this.BtAceptar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.BtAceptar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtAceptar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.BtAceptar.Font = new System.Drawing.Font("MV Boli", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtAceptar.Location = new System.Drawing.Point(396, 223);
+            this.BtAceptar.Name = "BtAceptar";
+            this.BtAceptar.Size = new System.Drawing.Size(145, 70);
+            this.BtAceptar.TabIndex = 3;
+            this.BtAceptar.Text = "Click Aquí";
+            this.BtAceptar.UseVisualStyleBackColor = false;
+            this.BtAceptar.Click += new System.EventHandler(this.BtAceptar_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.MediumTurquoise;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.Edad);
-            this.Controls.Add(this.LblEtique);
-            this.Controls.Add(this.TxtIngreso);
+            this.Controls.Add(this.BtAceptar);
+            this.Controls.Add(this.LblRes);
+            this.Controls.Add(this.LblTique);
+            this.Controls.Add(this.TxtEdad);
             this.Name = "Form1";
             this.Text = "Prueba IF 2";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -90,10 +95,10 @@ namespace Prueba_IF_2
 
         #endregion
 
-        private System.Windows.Forms.TextBox TxtIngreso;
-        private System.Windows.Forms.Label LblEtique;
-        private System.Windows.Forms.Label Edad;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox TxtEdad;
+        private System.Windows.Forms.Label LblTique;
+        private System.Windows.Forms.Label LblRes;
+        private System.Windows.Forms.Button BtAceptar;
     }
 }
 
