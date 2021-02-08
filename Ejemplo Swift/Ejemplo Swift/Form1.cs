@@ -53,6 +53,9 @@ namespace Ejemplo_Swift
             }
         }
 
-        
+        private void BtnSalir_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

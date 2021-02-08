@@ -33,6 +33,7 @@ namespace Ejemplo_Swift
             this.Nota = new System.Windows.Forms.Label();
             this.LblRes = new System.Windows.Forms.Label();
             this.TxtNota = new System.Windows.Forms.TextBox();
+            this.BtnSalir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BtnAceptar
@@ -45,7 +46,7 @@ namespace Ejemplo_Swift
             this.BtnAceptar.Name = "BtnAceptar";
             this.BtnAceptar.Size = new System.Drawing.Size(174, 69);
             this.BtnAceptar.TabIndex = 0;
-            this.BtnAceptar.Text = "VER PROMEDIO";
+            this.BtnAceptar.Text = "APROBADO?";
             this.BtnAceptar.UseVisualStyleBackColor = false;
             this.BtnAceptar.Click += new System.EventHandler(this.BtnAceptar_Click);
             // 
@@ -76,12 +77,26 @@ namespace Ejemplo_Swift
             this.TxtNota.Size = new System.Drawing.Size(80, 26);
             this.TxtNota.TabIndex = 3;
             // 
+            // BtnSalir
+            // 
+            this.BtnSalir.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.BtnSalir.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnSalir.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BtnSalir.Location = new System.Drawing.Point(544, 263);
+            this.BtnSalir.Name = "BtnSalir";
+            this.BtnSalir.Size = new System.Drawing.Size(111, 52);
+            this.BtnSalir.TabIndex = 4;
+            this.BtnSalir.Text = "FINALIZAR PROGRAMA";
+            this.BtnSalir.UseVisualStyleBackColor = false;
+            this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(683, 338);
+            this.Controls.Add(this.BtnSalir);
             this.Controls.Add(this.TxtNota);
             this.Controls.Add(this.LblRes);
             this.Controls.Add(this.Nota);
@@ -100,6 +115,7 @@ namespace Ejemplo_Swift
         private System.Windows.Forms.Label Nota;
         private System.Windows.Forms.Label LblRes;
         private System.Windows.Forms.TextBox TxtNota;
+        private System.Windows.Forms.Button BtnSalir;
     }
 }
 
