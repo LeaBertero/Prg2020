@@ -21,5 +21,16 @@ namespace PruebaIf
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            var pepe2 = new FrmSiguiente();
+            pepe2.Show();
+        }
     }
 }

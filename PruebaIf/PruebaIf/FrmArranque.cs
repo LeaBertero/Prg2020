@@ -25,13 +25,13 @@ namespace PruebaIf
         private void button1_Click(object sender, EventArgs e)
         {
             var pepe = new FrmSiguiente();
-            pepe.ShowDialog();
+            pepe.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             var pepe2 = new FrmSiguiente();
-            pepe2.ShowDialog();
+            pepe2.Show();
         }
     }
 }
