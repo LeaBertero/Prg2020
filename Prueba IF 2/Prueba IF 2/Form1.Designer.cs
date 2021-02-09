@@ -42,6 +42,7 @@ namespace Prueba_IF_2
             this.TxtEdad.Name = "TxtEdad";
             this.TxtEdad.Size = new System.Drawing.Size(113, 33);
             this.TxtEdad.TabIndex = 0;
+            this.TxtEdad.TextChanged += new System.EventHandler(this.TxtEdad_TextChanged);
             // 
             // LblTique
             // 

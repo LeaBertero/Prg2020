@@ -77,6 +77,7 @@ namespace EjemploConversion
             this.LblSuma.Size = new System.Drawing.Size(43, 55);
             this.LblSuma.TabIndex = 3;
             this.LblSuma.Text = "+";
+            this.LblSuma.Click += new System.EventHandler(this.LblSuma_Click);
             // 
             // LblRes
             // 

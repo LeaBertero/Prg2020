@@ -20,7 +20,7 @@ namespace EjemploConversion
         private void BtnSuma_Click(object sender, EventArgs e)
         {
             decimal Oper1 = System.Convert.ToDecimal (TxtOper1.Text);
-            decimal Oper2 = System.Convert.ToDecimal(TxtOper2.Text);
+            decimal Oper2 = System.Convert.ToDecimal (TxtOper2.Text);
             LblRes.Text = TxtOper1.Text + TxtOper2.Text;
 
             decimal res = Oper1 + Oper2;
@@ -44,6 +44,11 @@ namespace EjemploConversion
         }
 
         private void TxtOper1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LblSuma_Click(object sender, EventArgs e)
         {
 
         }

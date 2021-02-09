@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Ejemplo_Swift
 {
-    public partial class Form1 : Form
+    public partial class Notas : Form
     {
-        public Form1()
+        public Notas()
         {
             InitializeComponent();
         }
@@ -25,30 +25,24 @@ namespace Ejemplo_Swift
 
             {
                 case 1:
-                    LblRes.Text = "APLAZADO";
-                    break;
-
                 case 2:
                     LblRes.Text = "APLAZADO";
                     break;
 
-                case 3:
+                case 5:
                     LblRes.Text = "APROBADO";
                     break;
 
                 case 4:
+                    LblRes.Text = "REGULAR";
+                    break;
+                case 7:
                     LblRes.Text = "PROMOCIONADO";
                     break;
-
-                case 5:
-                    LblRes.Text = "PROMOCIONADO";
-                    break;
+                   
                 default: 
                     LblRes.Text = "Nota no valida";
                     break; 
-
-                
-
 
             }
         }
@@ -56,6 +50,11 @@ namespace Ejemplo_Swift
         private void BtnSalir_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void TxtNota_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

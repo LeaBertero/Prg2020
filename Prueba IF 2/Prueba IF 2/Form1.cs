@@ -50,5 +50,10 @@ namespace Prueba_IF_2
                 
             }
         }
+
+        private void TxtEdad_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -1,7 +1,7 @@
 ﻿
 namespace Ejemplo_Swift
 {
-    partial class Form1
+    partial class Notas
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -40,6 +40,8 @@ namespace Ejemplo_Swift
             // 
             this.BtnAceptar.BackColor = System.Drawing.Color.Black;
             this.BtnAceptar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnAceptar.FlatAppearance.BorderColor = System.Drawing.Color.WhiteSmoke;
+            this.BtnAceptar.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.BtnAceptar.Font = new System.Drawing.Font("MV Boli", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnAceptar.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.BtnAceptar.Location = new System.Drawing.Point(235, 126);
@@ -76,6 +78,7 @@ namespace Ejemplo_Swift
             this.TxtNota.Name = "TxtNota";
             this.TxtNota.Size = new System.Drawing.Size(80, 26);
             this.TxtNota.TabIndex = 3;
+            this.TxtNota.TextChanged += new System.EventHandler(this.TxtNota_TextChanged);
             // 
             // BtnSalir
             // 
