@@ -36,26 +36,27 @@ namespace PruebaIf
             // 
             // BtnAraanque1
             // 
-            this.BtnAraanque1.BackColor = System.Drawing.Color.Red;
+            this.BtnAraanque1.BackColor = System.Drawing.Color.HotPink;
             this.BtnAraanque1.Font = new System.Drawing.Font("MV Boli", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnAraanque1.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.BtnAraanque1.Location = new System.Drawing.Point(505, 68);
+            this.BtnAraanque1.Location = new System.Drawing.Point(716, 351);
             this.BtnAraanque1.Name = "BtnAraanque1";
-            this.BtnAraanque1.Size = new System.Drawing.Size(159, 81);
+            this.BtnAraanque1.Size = new System.Drawing.Size(103, 61);
             this.BtnAraanque1.TabIndex = 0;
-            this.BtnAraanque1.Text = "following Pink form";
+            this.BtnAraanque1.Text = "SALIR";
             this.BtnAraanque1.UseVisualStyleBackColor = false;
             this.BtnAraanque1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Btn2
             // 
-            this.Btn2.BackColor = System.Drawing.Color.Lime;
+            this.Btn2.BackColor = System.Drawing.Color.Black;
             this.Btn2.Font = new System.Drawing.Font("MV Boli", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn2.Location = new System.Drawing.Point(130, 68);
+            this.Btn2.ForeColor = System.Drawing.Color.Lime;
+            this.Btn2.Location = new System.Drawing.Point(319, 136);
             this.Btn2.Name = "Btn2";
             this.Btn2.Size = new System.Drawing.Size(162, 81);
             this.Btn2.TabIndex = 1;
-            this.Btn2.Text = "GreenForm";
+            this.Btn2.Text = "Formulario verde";
             this.Btn2.UseVisualStyleBackColor = false;
             this.Btn2.Click += new System.EventHandler(this.button2_Click);
             // 

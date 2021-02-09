@@ -24,14 +24,13 @@ namespace PruebaIf
 
         private void button1_Click(object sender, EventArgs e)
         {
-            var pepe = new FrmArranque();
-            pepe.Show();
+            Close();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            var pepe2 = new FrmSiguiente();
-            pepe2.Show();
+            var formulario2 = new FrmSiguiente();
+            formulario2.Show();
         }
     }
 }
