@@ -32,5 +32,11 @@ namespace PruebaIf
             var formulario2 = new FrmSiguiente();
             formulario2.Show();
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            var FrmPink = new FrmPink();
+            FrmPink.Show();
+        }
     }
 }

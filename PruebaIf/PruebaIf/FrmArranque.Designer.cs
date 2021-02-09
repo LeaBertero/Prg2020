@@ -32,6 +32,7 @@ namespace PruebaIf
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmArranque));
             this.BtnAraanque1 = new System.Windows.Forms.Button();
             this.Btn2 = new System.Windows.Forms.Button();
+            this.Btn3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BtnAraanque1
@@ -52,7 +53,7 @@ namespace PruebaIf
             this.Btn2.BackColor = System.Drawing.Color.Black;
             this.Btn2.Font = new System.Drawing.Font("MV Boli", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn2.ForeColor = System.Drawing.Color.Lime;
-            this.Btn2.Location = new System.Drawing.Point(319, 136);
+            this.Btn2.Location = new System.Drawing.Point(216, 132);
             this.Btn2.Name = "Btn2";
             this.Btn2.Size = new System.Drawing.Size(162, 81);
             this.Btn2.TabIndex = 1;
@@ -60,12 +61,27 @@ namespace PruebaIf
             this.Btn2.UseVisualStyleBackColor = false;
             this.Btn2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // Btn3
+            // 
+            this.Btn3.BackColor = System.Drawing.Color.DeepPink;
+            this.Btn3.Font = new System.Drawing.Font("MV Boli", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn3.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.Btn3.Location = new System.Drawing.Point(500, 132);
+            this.Btn3.Name = "Btn3";
+            this.Btn3.Size = new System.Drawing.Size(198, 87);
+            this.Btn3.TabIndex = 2;
+            this.Btn3.Tag = "Formulario Rosado";
+            this.Btn3.Text = "Ir al Formulario Rosado";
+            this.Btn3.UseVisualStyleBackColor = false;
+            this.Btn3.Click += new System.EventHandler(this.button1_Click_1);
+            // 
             // FrmArranque
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.ClientSize = new System.Drawing.Size(842, 424);
+            this.Controls.Add(this.Btn3);
             this.Controls.Add(this.Btn2);
             this.Controls.Add(this.BtnAraanque1);
             this.ForeColor = System.Drawing.SystemColors.InfoText;
@@ -81,5 +97,6 @@ namespace PruebaIf
 
         private System.Windows.Forms.Button BtnAraanque1;
         private System.Windows.Forms.Button Btn2;
+        private System.Windows.Forms.Button Btn3;
     }
 }
