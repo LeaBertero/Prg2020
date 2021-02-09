@@ -35,7 +35,13 @@ namespace PruebaIf
         private void button2_Click(object sender, EventArgs e)
         {
             var pepe = new FrmArranque();
-            pepe.Show();
+            pepe.ShowDialog();
+        }
+
+        private void Btn4_Click(object sender, EventArgs e)
+        {
+            var formulario2 = new FrmSiguiente();
+            formulario2.ShowDialog();
         }
     }
 }

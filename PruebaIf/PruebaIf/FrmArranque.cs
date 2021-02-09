@@ -30,13 +30,13 @@ namespace PruebaIf
         private void button2_Click(object sender, EventArgs e)
         {
             var formulario2 = new FrmSiguiente();
-            formulario2.Show();
+            formulario2.ShowDialog();
         }
 
         private void button1_Click_1(object sender, EventArgs e)
         {
             var FrmPink = new FrmPink();
-            FrmPink.Show();
+            FrmPink.ShowDialog();
         }
     }
 }

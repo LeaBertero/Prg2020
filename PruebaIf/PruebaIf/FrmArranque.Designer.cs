@@ -38,11 +38,12 @@ namespace PruebaIf
             // BtnAraanque1
             // 
             this.BtnAraanque1.BackColor = System.Drawing.Color.HotPink;
-            this.BtnAraanque1.Font = new System.Drawing.Font("MV Boli", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnAraanque1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnAraanque1.Font = new System.Drawing.Font("MV Boli", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnAraanque1.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.BtnAraanque1.Location = new System.Drawing.Point(716, 351);
+            this.BtnAraanque1.Location = new System.Drawing.Point(265, 279);
             this.BtnAraanque1.Name = "BtnAraanque1";
-            this.BtnAraanque1.Size = new System.Drawing.Size(103, 61);
+            this.BtnAraanque1.Size = new System.Drawing.Size(242, 115);
             this.BtnAraanque1.TabIndex = 0;
             this.BtnAraanque1.Text = "SALIR";
             this.BtnAraanque1.UseVisualStyleBackColor = false;
@@ -51,11 +52,12 @@ namespace PruebaIf
             // Btn2
             // 
             this.Btn2.BackColor = System.Drawing.Color.Black;
-            this.Btn2.Font = new System.Drawing.Font("MV Boli", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Btn2.Font = new System.Drawing.Font("MV Boli", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn2.ForeColor = System.Drawing.Color.Lime;
-            this.Btn2.Location = new System.Drawing.Point(216, 132);
+            this.Btn2.Location = new System.Drawing.Point(36, 25);
             this.Btn2.Name = "Btn2";
-            this.Btn2.Size = new System.Drawing.Size(162, 81);
+            this.Btn2.Size = new System.Drawing.Size(324, 194);
             this.Btn2.TabIndex = 1;
             this.Btn2.Text = "Formulario verde";
             this.Btn2.UseVisualStyleBackColor = false;
@@ -64,11 +66,12 @@ namespace PruebaIf
             // Btn3
             // 
             this.Btn3.BackColor = System.Drawing.Color.DeepPink;
-            this.Btn3.Font = new System.Drawing.Font("MV Boli", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Btn3.Font = new System.Drawing.Font("MV Boli", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn3.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.Btn3.Location = new System.Drawing.Point(500, 132);
+            this.Btn3.Location = new System.Drawing.Point(451, 28);
             this.Btn3.Name = "Btn3";
-            this.Btn3.Size = new System.Drawing.Size(198, 87);
+            this.Btn3.Size = new System.Drawing.Size(338, 191);
             this.Btn3.TabIndex = 2;
             this.Btn3.Tag = "Formulario Rosado";
             this.Btn3.Text = "Ir al Formulario Rosado";

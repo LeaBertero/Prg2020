@@ -20,7 +20,12 @@ namespace PruebaIf
         private void button1_Click(object sender, EventArgs e)
         {
             var Formulario3 = new FrmArranque();
-            Formulario3.Show();
+            Formulario3.ShowDialog();
+        }
+
+        private void BtnSALIR_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }
