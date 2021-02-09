@@ -52,9 +52,9 @@ namespace PruebaIf
             this.button2.Font = new System.Drawing.Font("MV Boli", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(451, 167);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(188, 92);
+            this.button2.Size = new System.Drawing.Size(142, 92);
             this.button2.TabIndex = 1;
-            this.button2.Text = "BleFormEmerg";
+            this.button2.Text = "Bule Form Inicio";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
