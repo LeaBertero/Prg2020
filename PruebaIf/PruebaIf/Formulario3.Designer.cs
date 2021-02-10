@@ -41,7 +41,7 @@ namespace PruebaIf
             this.Frm3.ForeColor = System.Drawing.Color.MediumBlue;
             this.Frm3.Location = new System.Drawing.Point(24, 24);
             this.Frm3.Name = "Frm3";
-            this.Frm3.Size = new System.Drawing.Size(402, 275);
+            this.Frm3.Size = new System.Drawing.Size(328, 167);
             this.Frm3.TabIndex = 0;
             this.Frm3.Text = "Volver al primer formulario";
             this.Frm3.UseVisualStyleBackColor = false;
