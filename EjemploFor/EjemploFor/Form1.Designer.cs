@@ -55,7 +55,7 @@ namespace EjemploFor
             // 
             this.LblRes.AutoSize = true;
             this.LblRes.Font = new System.Drawing.Font("MV Boli", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblRes.Location = new System.Drawing.Point(315, 297);
+            this.LblRes.Location = new System.Drawing.Point(313, 291);
             this.LblRes.Name = "LblRes";
             this.LblRes.Size = new System.Drawing.Size(0, 28);
             this.LblRes.TabIndex = 2;
@@ -113,9 +113,9 @@ namespace EjemploFor
             this.BtnSalir.Font = new System.Drawing.Font("MV Boli", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnSalir.Location = new System.Drawing.Point(318, 412);
             this.BtnSalir.Name = "BtnSalir";
-            this.BtnSalir.Size = new System.Drawing.Size(146, 67);
+            this.BtnSalir.Size = new System.Drawing.Size(204, 44);
             this.BtnSalir.TabIndex = 8;
-            this.BtnSalir.Text = "Finalizar ";
+            this.BtnSalir.Text = "Finalizar programa";
             this.BtnSalir.UseVisualStyleBackColor = false;
             this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
             // 
@@ -131,7 +131,7 @@ namespace EjemploFor
             this.BtnContar.Name = "BtnContar";
             this.BtnContar.Size = new System.Drawing.Size(252, 305);
             this.BtnContar.TabIndex = 0;
-            this.BtnContar.Text = "Hago click?";
+            this.BtnContar.Text = "Comenzamos?";
             this.BtnContar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnContar.UseVisualStyleBackColor = false;
             this.BtnContar.Click += new System.EventHandler(this.BtnContar_Click);
@@ -155,6 +155,7 @@ namespace EjemploFor
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmContador";
             this.Text = "Ejemplo For (Para)";
+            this.Load += new System.EventHandler(this.FrmContador_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
