@@ -70,7 +70,7 @@ namespace EjemploWhile
             this.Lbl.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.Lbl.Font = new System.Drawing.Font("MV Boli", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl.Image = global::EjemploWhile.Properties.Resources.descarga;
-            this.Lbl.Location = new System.Drawing.Point(27, 134);
+            this.Lbl.Location = new System.Drawing.Point(38, 141);
             this.Lbl.Name = "Lbl";
             this.Lbl.Size = new System.Drawing.Size(306, 314);
             this.Lbl.TabIndex = 1;
@@ -84,9 +84,9 @@ namespace EjemploWhile
             this.Lbl2.Font = new System.Drawing.Font("MV Boli", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl2.ForeColor = System.Drawing.Color.Gold;
             this.Lbl2.Image = global::EjemploWhile.Properties.Resources.descarga__1_;
-            this.Lbl2.Location = new System.Drawing.Point(895, 114);
+            this.Lbl2.Location = new System.Drawing.Point(898, 132);
             this.Lbl2.Name = "Lbl2";
-            this.Lbl2.Size = new System.Drawing.Size(306, 314);
+            this.Lbl2.Size = new System.Drawing.Size(254, 323);
             this.Lbl2.TabIndex = 3;
             this.Lbl2.Text = "BOCA JUNIORS";
             this.Lbl2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -120,11 +120,12 @@ namespace EjemploWhile
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Red;
-            this.ClientSize = new System.Drawing.Size(1203, 511);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(1232, 541);
+            this.Controls.Add(this.Lbl);
             this.Controls.Add(this.Lbl2);
             this.Controls.Add(this.Btn2);
             this.Controls.Add(this.Btn1);
-            this.Controls.Add(this.Lbl);
             this.Controls.Add(this.LblDerecha);
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));

@@ -26,9 +26,9 @@ namespace EjemploWhile
         {
             
            int AnchoFormulario = this.Width;
-            int AnchoLabel = Lbl.Width;
+            int AnchoLabel= Lbl.Width;
 
-            for (int X = 0; X < AnchoFormulario -AnchoLabel; X++)
+            for (int X = 0; X < AnchoFormulario - AnchoLabel; X++)
             {
                 Lbl.Left = X;
 
@@ -50,7 +50,7 @@ namespace EjemploWhile
 
              AnchoLbl2 = Lbl2.Width;
 
-            for (int Y = 0; Y < AnchoFormulario - AnchoLbl2 ; Y++)
+            for (int Y = 30; Y < AnchoFormulario - AnchoLbl2 ; Y++)
             {
                 Lbl2.Left = Y;
 
