@@ -66,7 +66,7 @@ namespace Reproductor_de_audio_y_Video
 
         private void BtnSalir_Click(object sender, EventArgs e)
         {
-            Close;
+            Close();
         }
     }
 }
