@@ -37,13 +37,14 @@ namespace Reproductor_de_audio_y_Video
             this.BtnStop = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.LblRuta = new System.Windows.Forms.Label();
+            this.BtnSalir = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).BeginInit();
             this.SuspendLayout();
             // 
             // axWindowsMediaPlayer1
             // 
             this.axWindowsMediaPlayer1.Enabled = true;
-            this.axWindowsMediaPlayer1.Location = new System.Drawing.Point(24, 12);
+            this.axWindowsMediaPlayer1.Location = new System.Drawing.Point(203, 22);
             this.axWindowsMediaPlayer1.Name = "axWindowsMediaPlayer1";
             this.axWindowsMediaPlayer1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axWindowsMediaPlayer1.OcxState")));
             this.axWindowsMediaPlayer1.Size = new System.Drawing.Size(473, 323);
@@ -53,9 +54,10 @@ namespace Reproductor_de_audio_y_Video
             // BtnCargar
             // 
             this.BtnCargar.BackColor = System.Drawing.Color.Black;
+            this.BtnCargar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnCargar.Font = new System.Drawing.Font("Ink Free", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnCargar.ForeColor = System.Drawing.Color.Red;
-            this.BtnCargar.Location = new System.Drawing.Point(36, 375);
+            this.BtnCargar.Location = new System.Drawing.Point(203, 375);
             this.BtnCargar.Name = "BtnCargar";
             this.BtnCargar.Size = new System.Drawing.Size(102, 64);
             this.BtnCargar.TabIndex = 1;
@@ -66,9 +68,10 @@ namespace Reproductor_de_audio_y_Video
             // BtnPlay
             // 
             this.BtnPlay.BackColor = System.Drawing.Color.Black;
+            this.BtnPlay.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnPlay.Font = new System.Drawing.Font("Ink Free", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnPlay.ForeColor = System.Drawing.Color.Red;
-            this.BtnPlay.Location = new System.Drawing.Point(153, 375);
+            this.BtnPlay.Location = new System.Drawing.Point(330, 375);
             this.BtnPlay.Name = "BtnPlay";
             this.BtnPlay.Size = new System.Drawing.Size(102, 64);
             this.BtnPlay.TabIndex = 2;
@@ -79,9 +82,10 @@ namespace Reproductor_de_audio_y_Video
             // BtnPause
             // 
             this.BtnPause.BackColor = System.Drawing.Color.Black;
+            this.BtnPause.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnPause.Font = new System.Drawing.Font("Ink Free", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnPause.ForeColor = System.Drawing.Color.Red;
-            this.BtnPause.Location = new System.Drawing.Point(272, 375);
+            this.BtnPause.Location = new System.Drawing.Point(452, 375);
             this.BtnPause.Name = "BtnPause";
             this.BtnPause.Size = new System.Drawing.Size(102, 64);
             this.BtnPause.TabIndex = 3;
@@ -92,9 +96,10 @@ namespace Reproductor_de_audio_y_Video
             // BtnStop
             // 
             this.BtnStop.BackColor = System.Drawing.Color.Black;
+            this.BtnStop.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnStop.Font = new System.Drawing.Font("Ink Free", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnStop.ForeColor = System.Drawing.Color.Red;
-            this.BtnStop.Location = new System.Drawing.Point(395, 375);
+            this.BtnStop.Location = new System.Drawing.Point(574, 375);
             this.BtnStop.Name = "BtnStop";
             this.BtnStop.Size = new System.Drawing.Size(102, 64);
             this.BtnStop.TabIndex = 4;
@@ -117,12 +122,26 @@ namespace Reproductor_de_audio_y_Video
             this.LblRuta.Text = "Ruta";
             this.LblRuta.Click += new System.EventHandler(this.LblCargar_Click);
             // 
+            // BtnSalir
+            // 
+            this.BtnSalir.BackColor = System.Drawing.Color.DarkGreen;
+            this.BtnSalir.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnSalir.Font = new System.Drawing.Font("Ink Free", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnSalir.ForeColor = System.Drawing.SystemColors.Control;
+            this.BtnSalir.Location = new System.Drawing.Point(709, 444);
+            this.BtnSalir.Name = "BtnSalir";
+            this.BtnSalir.Size = new System.Drawing.Size(117, 66);
+            this.BtnSalir.TabIndex = 6;
+            this.BtnSalir.Text = "Exit";
+            this.BtnSalir.UseVisualStyleBackColor = false;
+            // 
             // FormAudio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkCyan;
             this.ClientSize = new System.Drawing.Size(861, 541);
+            this.Controls.Add(this.BtnSalir);
             this.Controls.Add(this.LblRuta);
             this.Controls.Add(this.BtnStop);
             this.Controls.Add(this.BtnPause);
@@ -147,6 +166,7 @@ namespace Reproductor_de_audio_y_Video
         private System.Windows.Forms.Button BtnStop;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.Label LblRuta;
+        private System.Windows.Forms.Button BtnSalir;
     }
 }
 
