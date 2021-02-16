@@ -89,7 +89,7 @@ namespace Reproductor_de_audio_y_Video
             this.BtnPause.Name = "BtnPause";
             this.BtnPause.Size = new System.Drawing.Size(102, 64);
             this.BtnPause.TabIndex = 3;
-            this.BtnPause.Text = "Puase";
+            this.BtnPause.Text = "Pause";
             this.BtnPause.UseVisualStyleBackColor = false;
             this.BtnPause.Click += new System.EventHandler(this.BtnPause_Click);
             // 
