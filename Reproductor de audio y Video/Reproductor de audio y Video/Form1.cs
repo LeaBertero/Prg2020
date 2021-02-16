@@ -63,5 +63,10 @@ namespace Reproductor_de_audio_y_Video
         {
             axWindowsMediaPlayer1.Ctlcontrols.pause();
         }
+
+        private void BtnSalir_Click(object sender, EventArgs e)
+        {
+            Close;
+        }
     }
 }

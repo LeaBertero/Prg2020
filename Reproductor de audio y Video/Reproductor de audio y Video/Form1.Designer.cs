@@ -134,6 +134,7 @@ namespace Reproductor_de_audio_y_Video
             this.BtnSalir.TabIndex = 6;
             this.BtnSalir.Text = "Exit";
             this.BtnSalir.UseVisualStyleBackColor = false;
+            this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
             // 
             // FormAudio
             // 
