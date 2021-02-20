@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace EjemploWhile
 {
-    public partial class EjemploWhile : Form
+    public partial class Frm1 : Form
     {
-        public EjemploWhile()
+        public Frm1()
         {
             InitializeComponent();
         }
@@ -22,39 +22,29 @@ namespace EjemploWhile
 
         }
 
-        private void Btn1_Click(object sender, EventArgs e)
+        private void BtnComenzar_Click(object sender, EventArgs e)
         {
-            
-           int AnchoFormulario = this.Width;
-            int AnchoLabel= Lbl.Width;
+            int Anchoformulario = this.Width;
+            int AnchoPicbigote = PicBigote.Width;
+            int X = 050;
+            int AnchoBorde = 30;
 
-            for (int X = 0; X < AnchoFormulario - AnchoLabel; X++)
+            for (int x = 0; x < Anchoformulario - AnchoBorde; x++)
             {
-                Lbl.Left = X;
-
+                PicBigote.Left = X;
             }
-
-
 
         }
 
-        private void Lbl_Click(object sender, EventArgs e)
+        private void PicPantera_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void Btn2_Click(object sender, EventArgs e)
+        private void PicBigote_Click(object sender, EventArgs e)
         {
-            int AnchoFormulario = this.Width;
-            int AnchoLbl2 = this.Width;
 
-             AnchoLbl2 = Lbl2.Width;
-
-            for (int Y = 30; Y < AnchoFormulario - AnchoLbl2 ; Y++)
-            {
-                Lbl2.Left = Y;
-
-            }
         }
     }
-}
+    }
+

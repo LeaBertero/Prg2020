@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace EjemploWhile
+namespace Ejemplo_Mientras_y_Repetir_Hasta_V1
 {
     static class Program
     {
