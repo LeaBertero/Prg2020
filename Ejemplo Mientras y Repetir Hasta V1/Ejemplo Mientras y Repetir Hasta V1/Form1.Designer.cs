@@ -33,6 +33,7 @@ namespace Ejemplo_Mientras_y_Repetir_Hasta_V1
             this.LblMov = new System.Windows.Forms.Label();
             this.BtnFin = new System.Windows.Forms.Button();
             this.LblDe = new System.Windows.Forms.Label();
+            this.BtnSalir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BtnEmpezar
@@ -83,13 +84,30 @@ namespace Ejemplo_Mientras_y_Repetir_Hasta_V1
             this.LblDe.Size = new System.Drawing.Size(44, 204);
             this.LblDe.TabIndex = 3;
             // 
+            // BtnSalir
+            // 
+            this.BtnSalir.BackColor = System.Drawing.SystemColors.MenuText;
+            this.BtnSalir.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnSalir.FlatAppearance.BorderColor = System.Drawing.Color.Yellow;
+            this.BtnSalir.FlatAppearance.BorderSize = 20;
+            this.BtnSalir.Font = new System.Drawing.Font("Ink Free", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnSalir.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.BtnSalir.Location = new System.Drawing.Point(268, 316);
+            this.BtnSalir.Name = "BtnSalir";
+            this.BtnSalir.Size = new System.Drawing.Size(134, 52);
+            this.BtnSalir.TabIndex = 4;
+            this.BtnSalir.Text = "Close";
+            this.BtnSalir.UseVisualStyleBackColor = false;
+            this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
+            // 
             // Frm1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LawnGreen;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(627, 368);
+            this.ClientSize = new System.Drawing.Size(677, 399);
+            this.Controls.Add(this.BtnSalir);
             this.Controls.Add(this.LblDe);
             this.Controls.Add(this.BtnFin);
             this.Controls.Add(this.BtnEmpezar);
@@ -107,6 +125,7 @@ namespace Ejemplo_Mientras_y_Repetir_Hasta_V1
         private System.Windows.Forms.Label LblMov;
         private System.Windows.Forms.Button BtnFin;
         private System.Windows.Forms.Label LblDe;
+        private System.Windows.Forms.Button BtnSalir;
     }
 }
 

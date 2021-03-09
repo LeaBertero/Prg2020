@@ -39,5 +39,10 @@ namespace Ejemplo_Mientras_y_Repetir_Hasta_V1
                 LblDe.Left = Y;
             }
         }
+
+        private void BtnSalir_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

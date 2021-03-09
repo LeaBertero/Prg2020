@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesplazamientoLabel", "DesplazamientoLabel\DesplazamientoLabel.csproj", "{34E13D4C-4D05-483B-B68E-5B3A60D7359D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34E13D4C-4D05-483B-B68E-5B3A60D7359D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34E13D4C-4D05-483B-B68E-5B3A60D7359D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34E13D4C-4D05-483B-B68E-5B3A60D7359D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34E13D4C-4D05-483B-B68E-5B3A60D7359D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5E01DB7-6080-47B9-BC03-67F459E890F7}
+	EndGlobalSection
+EndGlobal
